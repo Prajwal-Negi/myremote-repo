@@ -1,0 +1,10 @@
+---
+Resources:
+SimpleEX2Instance:
+Type: "AWS::EC2::Instance"
+Properties:
+InstanceType: t3.micro
+ImageId: ami-02db68a01488594c5
+Tags:
+- Key: Name
+Value: MySimpleInstance
